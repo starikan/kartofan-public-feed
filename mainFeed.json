@@ -1,4 +1,4 @@
-{
+JsonpCallback({
     "maps": {
         "cloudmate": {
             "id": "cloudmate",
@@ -152,4 +152,4 @@
             ]
         }
     }    
-}
+});
