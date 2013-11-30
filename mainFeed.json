@@ -2,7 +2,7 @@
     "maps": {
         "cloudmate": {
             "id": "cloudmate",
-            "tags": ["0. Online Maps"],
+            "tags": "0. Online Maps",
             "group": "0. Online Maps",
             "src": "Internet",
             "server": "img",
@@ -14,7 +14,7 @@
         },
         "mendeDrop": {
             "id": "mendeDrop",
-            "tags": ["4. Исторические 1800-1920"],
+            "tags": "4. Исторические 1800-1920",
             "group": "4. Исторические 1800-1920",
             "src": "Storage",
             "server": "img",
@@ -27,7 +27,7 @@
         },
         "yandexSAT": {
             "id": "yandexSAT",
-            "tags": ["0. Спутниковые снимки"],
+            "tags": "0. Спутниковые снимки",
             "group": "0. Спутниковые снимки",
             "src": "Internet",
             "server": "img",
@@ -40,7 +40,7 @@
         },
         "googleSAT": {
             "id": "googleSAT",
-            "tags": ["0. Спутниковые снимки"],
+            "tags": "0. Спутниковые снимки",
             "group": "0. Спутниковые снимки",
             "src": "Internet",
             "server": "img",
