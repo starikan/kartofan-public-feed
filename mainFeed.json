@@ -14,8 +14,8 @@
         },
         "mendeDrop": {
             "id": "mendeDrop",
-            "tags": "4. Исторические 1800-1920",
-            "group": "4. Исторические 1800-1920",
+            "tags": "4. Historical 1800-1920",
+            "group": "4. Historical 1800-1920",
             "src": "Storage",
             "server": "img",
             "title": "Мендэ Симбирская губерния 1в.",
@@ -27,8 +27,8 @@
         },
         "yandexSAT": {
             "id": "yandexSAT",
-            "tags": "0. Спутниковые снимки",
-            "group": "0. Спутниковые снимки",
+            "tags": "0. Online SAT",
+            "group": "0. Online SAT",
             "src": "Internet",
             "server": "img",
             "title": "Яндекс SAT",
@@ -40,8 +40,8 @@
         },
         "googleSAT": {
             "id": "googleSAT",
-            "tags": "0. Спутниковые снимки",
-            "group": "0. Спутниковые снимки",
+            "tags": "0. Online SAT",
+            "group": "0. Online SAT",
             "src": "Internet",
             "server": "img",
             "title": "Google SAT",
