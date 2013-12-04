@@ -54,7 +54,7 @@
     "stages": {
         "1 + mini": {
             "title": "1 + mini",
-            "id": "current",
+            "id": "1 + mini",
             "group": "",
             "tags": "",
             "stageMapsGrid": [
@@ -117,50 +117,12 @@
                     "zoomLevel": {
                         "pos": "bottomright"
                     }
-                },
-                {
-                    "zoom": {
-                        "pos": "topleft"
-                    },
-                    "scale": {
-                        "pos": "bottomleft",
-                        "miles": false
-                    },
-                    "infoCopyright": {
-                        "pos": "bottomright",
-                        "text": "Copyleft by Starik"
-                    },
-                    "mapTitle": {
-                        "pos": "bottomright"
-                    },
-                    "zoomLevel": {
-                        "pos": "bottomright"
-                    }
-                },
-                {
-                    "zoom": {
-                        "pos": "topleft"
-                    },
-                    "scale": {
-                        "pos": "bottomleft",
-                        "miles": false
-                    },
-                    "infoCopyright": {
-                        "pos": "bottomright",
-                        "text": "Copyleft by Starik"
-                    },
-                    "mapTitle": {
-                        "pos": "bottomright"
-                    },
-                    "zoomLevel": {
-                        "pos": "bottomright"
-                    }
                 }
             ]
         },
         "1g + 2g": {
             "title": "1g + 2g",
-            "id": "current",
+            "id": "1g + 2g",
             "group": "",
             "tags": "",
             "stageMapsGrid": [
@@ -250,31 +212,12 @@
                     "zoomLevel": {
                         "pos": "bottomright"
                     }
-                },
-                {
-                    "zoom": {
-                        "pos": "topleft"
-                    },
-                    "scale": {
-                        "pos": "bottomleft",
-                        "miles": false
-                    },
-                    "infoCopyright": {
-                        "pos": "bottomright",
-                        "text": "Copyleft by Starik"
-                    },
-                    "mapTitle": {
-                        "pos": "bottomright"
-                    },
-                    "zoomLevel": {
-                        "pos": "bottomright"
-                    }
                 }
             ]
         },
         "1v + 2v": {
             "title": "1v + 2v",
-            "id": "current",
+            "id": "1v + 2v",
             "group": "",
             "tags": "",
             "stageMapsGrid": [
@@ -364,31 +307,12 @@
                     "zoomLevel": {
                         "pos": "bottomright"
                     }
-                },
-                {
-                    "zoom": {
-                        "pos": "topleft"
-                    },
-                    "scale": {
-                        "pos": "bottomleft",
-                        "miles": false
-                    },
-                    "infoCopyright": {
-                        "pos": "bottomright",
-                        "text": "Copyleft by Starik"
-                    },
-                    "mapTitle": {
-                        "pos": "bottomright"
-                    },
-                    "zoomLevel": {
-                        "pos": "bottomright"
-                    }
                 }
             ]
         },
         "4 x 4": {
             "title": "4 x 4",
-            "id": "current",
+            "id": "4 x 4",
             "group": "",
             "tags": "",
             "stageMapsGrid": [
