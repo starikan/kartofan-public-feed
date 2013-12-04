@@ -52,46 +52,122 @@
         }
     },
     "stages": {
-        "current1": {
-            "title": "current1",
+        "1 + mini": {
+            "title": "1 + mini",
+            "id": "current",
+            "group": "",
+            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
                     0,
-                    50,
-                    50
+                    100,
+                    100
                 ],
                 [
+                    80,
                     0,
-                    50,
-                    50,
-                    50
-                ],
-                [
-                    50,
-                    50,
-                    50,
-                    50
+                    20,
+                    28
                 ]
             ],
             "stageMapsNames": [
-                "cloudmate",
                 "unknown",
                 "unknown"
             ],
             "stageMapsZooms": [
-                9,
                 12,
-                11
+                12
+            ],
+            "stageMapsControlls": [
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
             ]
         },
-        "current2": {
-            "title": "current2",
+        "1g + 2g": {
+            "title": "1g + 2g",
+            "id": "current",
+            "group": "",
+            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
                     0,
-                    50,
+                    100,
                     50
                 ],
                 [
@@ -108,18 +184,213 @@
                 ]
             ],
             "stageMapsNames": [
-                "cloudmate",
+                "unknown",
                 "unknown",
                 "unknown"
             ],
             "stageMapsZooms": [
-                9,
                 12,
-                11
+                12,
+                12
+            ],
+            "stageMapsControlls": [
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
             ]
         },
-        "current3": {
-            "title": "current3",
+        "1v + 2v": {
+            "title": "1v + 2v",
+            "id": "current",
+            "group": "",
+            "tags": "",
+            "stageMapsGrid": [
+                [
+                    0,
+                    0,
+                    50,
+                    100
+                ],
+                [
+                    50,
+                    50,
+                    50,
+                    50
+                ],
+                [
+                    50,
+                    0,
+                    50,
+                    50
+                ]
+            ],
+            "stageMapsNames": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "stageMapsZooms": [
+                12,
+                12,
+                12
+            ],
+            "stageMapsControlls": [
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
+            ]
+        },
+        "4 x 4": {
+            "title": "4 x 4",
+            "id": "current",
+            "group": "",
+            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
@@ -135,21 +406,107 @@
                 ],
                 [
                     50,
+                    0,
+                    50,
+                    50
+                ],
+                [
+                    50,
                     50,
                     50,
                     50
                 ]
             ],
             "stageMapsNames": [
-                "cloudmate",
+                "unknown",
+                "unknown",
                 "unknown",
                 "unknown"
             ],
             "stageMapsZooms": [
-                9,
                 12,
-                11
+                12,
+                12,
+                12
+            ],
+            "stageMapsControlls": [
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "zoom": {
+                        "pos": "topleft"
+                    },
+                    "scale": {
+                        "pos": "bottomleft",
+                        "miles": false
+                    },
+                    "infoCopyright": {
+                        "pos": "bottomright",
+                        "text": "Copyleft by Starik"
+                    },
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
             ]
         }
-    }    
+    }
 }
