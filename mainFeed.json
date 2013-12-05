@@ -1,5 +1,18 @@
 {
     "maps": {
+        "bingBirdEye": {
+            "id": "bingBirdEye",
+            "title": "Bing Bird Eye",
+            "server": "img",
+            "tags": "0. Online SAT",
+            "group": "0. Online SAT",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://ecn.t3.tiles.virtualearth.net/tiles/svi{bingBird}.jpeg?g=1126",
+            "maxZoom": "18",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
         "cloudmate": {
             "id": "cloudmate",
             "tags": "0. Online Maps",
@@ -9,8 +22,60 @@
             "title": "Cloudmate",
             "tilesURL": "http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png",
             "maxZoom": 15,
-            "minZoom": 0,
+            "minZoom": 1,
             "startZoom": 5
+        },
+        "genshtab": {
+            "id": "genshtab",
+            "title": "Genshtab",
+            "server": "wms",
+            "layer": "topomapper_gmerc",
+            "tags": "1. Modern Maps 1950-1990",
+            "group": "1. Modern Maps 1950-1990",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://78.46.61.141/cgi-bin/tilecache-2.11b/tilecache.py",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "ggc025k": {
+            "id": "ggc025k",
+            "title": "GGC 025k",
+            "server": "img",
+            "tags": "1. Modern Maps 1990-2013",
+            "group": "1. Modern Maps 1990-2013",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://maps.marshruty.ru/ml.ashx?al=1&i=1&x={x}&y={y}&z={z}",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "googleMap": {
+            "id": "googleMap",
+            "title": "Google MAP",
+            "server": "img",
+            "tags": "0. Online Maps",
+            "group": "0. Online Maps",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://mt{case0123}.google.com/vt/lyrs=m@169000000&hl=ru&x={x}&y={y}&zoom={z17}&s={Galileo}",
+            "maxZoom": "18",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
+        "googleSAT": {
+            "id": "googleSAT",
+            "tags": "0. Online SAT",
+            "group": "0. Online SAT",
+            "src": "Internet",
+            "server": "img",
+            "title": "Google SAT",
+            "tilesURL": "http://khms{case0123}.google.com/kh/v=141&hl=ru&src=app&x={x}&y={y}&z={z}&s={Galileo}",
+            "maxZoom": 20,
+            "minZoom": 0,
+            "startZoom": 13
         },
         "mendeDrop": {
             "id": "mendeDrop",
@@ -25,6 +90,45 @@
             "startZoom": 12,
             "crs": "EPSG3857.Ext"
         },
+        "osm": {
+            "id": "osm",
+            "title": "OpenStreetMaps",
+            "server": "img",
+            "tags": "0. Online Maps",
+            "group": "0. Online Maps",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "rosreestr": {
+            "id": "rosreestr",
+            "title": "Rosreestr",
+            "server": "img",
+            "tags": "0. Online SAT",
+            "group": "0. Online SAT",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://geoportal.ntsomz.ru/coverages/images/{z}/{rosreestr}.jpg",
+            "maxZoom": "18",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
+        "yandexMap": {
+            "id": "yandexMap",
+            "title": "Yandex MAP",
+            "server": "img",
+            "tags": "0. Online Maps",
+            "group": "0. Online Maps",
+            "src": "Internet",
+            "crs": "EPSG3395",
+            "tilesURL": "http://vec0{case1234}.maps.yandex.net/tiles?l=map&x={x}&y={y}&z={z}&g={Gagarin}",
+            "maxZoom": "20",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
         "yandexSAT": {
             "id": "yandexSAT",
             "tags": "0. Online SAT",
@@ -37,18 +141,6 @@
             "minZoom": 0,
             "startZoom": 13,
             "crs": "EPSG3395"
-        },
-        "googleSAT": {
-            "id": "googleSAT",
-            "tags": "0. Online SAT",
-            "group": "0. Online SAT",
-            "src": "Internet",
-            "server": "img",
-            "title": "Google SAT",
-            "tilesURL": "http://khms{case0123}.google.com/kh/v=141&hl=ru&src=app&x={x}&y={y}&z={z}&s={Galileo}",
-            "maxZoom": 20,
-            "minZoom": 0,
-            "startZoom": 13
         }
     },
     "stages": {
