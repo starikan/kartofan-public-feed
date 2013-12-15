@@ -4,7 +4,6 @@
             "id": "bingBirdEye",
             "title": "Bing Bird Eye",
             "server": "img",
-            "tags": "0. Online SAT",
             "group": "0. Online SAT",
             "src": "Internet",
             "crs": "",
@@ -15,7 +14,6 @@
         },
         "cloudmate": {
             "id": "cloudmate",
-            "tags": "0. Online Maps",
             "group": "0. Online Maps",
             "src": "Internet",
             "server": "img",
@@ -29,8 +27,7 @@
             "id": "genshtab",
             "title": "Genshtab",
             "server": "wms",
-            "layer": "topomapper_gmerc",
-            "tags": "1. Modern Maps 1950-1990",
+            "layers": "topomapper_gmerc",
             "group": "1. Modern Maps 1950-1990",
             "src": "Internet",
             "crs": "",
@@ -43,7 +40,6 @@
             "id": "ggc025k",
             "title": "GGC 025k",
             "server": "img",
-            "tags": "1. Modern Maps 1990-2013",
             "group": "1. Modern Maps 1990-2013",
             "src": "Internet",
             "crs": "",
@@ -56,7 +52,6 @@
             "id": "googleMap",
             "title": "Google MAP",
             "server": "img",
-            "tags": "0. Online Maps",
             "group": "0. Online Maps",
             "src": "Internet",
             "crs": "",
@@ -67,7 +62,6 @@
         },
         "googleSAT": {
             "id": "googleSAT",
-            "tags": "0. Online SAT",
             "group": "0. Online SAT",
             "src": "Internet",
             "server": "img",
@@ -79,7 +73,6 @@
         },
         "mendeDrop": {
             "id": "mendeDrop",
-            "tags": "4. Historical 1800-1920",
             "group": "4. Historical 1800-1920",
             "src": "Storage",
             "server": "img",
@@ -94,7 +87,6 @@
             "id": "osm",
             "title": "OpenStreetMaps",
             "server": "img",
-            "tags": "0. Online Maps",
             "group": "0. Online Maps",
             "src": "Internet",
             "crs": "",
@@ -107,7 +99,6 @@
             "id": "rosreestr",
             "title": "Rosreestr",
             "server": "img",
-            "tags": "0. Online SAT",
             "group": "0. Online SAT",
             "src": "Internet",
             "crs": "",
@@ -120,7 +111,6 @@
             "id": "yandexMap",
             "title": "Yandex MAP",
             "server": "img",
-            "tags": "0. Online Maps",
             "group": "0. Online Maps",
             "src": "Internet",
             "crs": "EPSG3395",
@@ -131,7 +121,6 @@
         },
         "yandexSAT": {
             "id": "yandexSAT",
-            "tags": "0. Online SAT",
             "group": "0. Online SAT",
             "src": "Internet",
             "server": "img",
@@ -148,7 +137,6 @@
             "title": "1 + mini",
             "id": "1 + mini",
             "group": "",
-            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
@@ -216,7 +204,6 @@
             "title": "1g + 2g",
             "id": "1g + 2g",
             "group": "",
-            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
@@ -311,7 +298,6 @@
             "title": "1v + 2v",
             "id": "1v + 2v",
             "group": "",
-            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
@@ -406,7 +392,6 @@
             "title": "4 x 4",
             "id": "4 x 4",
             "group": "",
-            "tags": "",
             "stageMapsGrid": [
                 [
                     0,
