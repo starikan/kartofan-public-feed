@@ -159,6 +159,7 @@
                 12,
                 12
             ],
+            "stageMapsZoomsBlock": [false, false],
             "stageMapsControlls": [
                 {
                     "zoom": {
@@ -234,6 +235,7 @@
                 12,
                 12
             ],
+            "stageMapsZoomsBlock": [false, false, false],
             "stageMapsControlls": [
                 {
                     "zoom": {
@@ -328,6 +330,7 @@
                 12,
                 12
             ],
+            "stageMapsZoomsBlock": [false, false, false],
             "stageMapsControlls": [
                 {
                     "zoom": {
@@ -430,6 +433,7 @@
                 12,
                 12
             ],
+            "stageMapsZoomsBlock": [false, false, false, false],
             "stageMapsControlls": [
                 {
                     "zoom": {
