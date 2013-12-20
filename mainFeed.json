@@ -136,7 +136,7 @@
         "1 + mini": {
             "title": "1 + mini",
             "id": "1 + mini",
-            "group": "",
+            "group": "Unknown",
             "stageMapsGrid": [
                 [
                     0,
@@ -145,8 +145,8 @@
                     100
                 ],
                 [
-                    80,
                     0,
+                    72,
                     20,
                     28
                 ]
@@ -159,7 +159,10 @@
                 12,
                 12
             ],
-            "stageMapsZoomsBlock": [false, false],
+            "stageMapsZoomsBlock": [
+                false,
+                false
+            ],
             "stageMapsControlls": [
                 {
                     "mapTitle": {
@@ -170,12 +173,11 @@
                     }
                 },
                 {
-                    "mapTitle": {
-                        "pos": "bottomright"
-                    },
-                    "zoomLevel": {
-                        "pos": "bottomright"
-                    }
+                    "mapTitle": false,
+                    "zoomLevel": false,
+                    "zoom": false,
+                    "scale": false,
+                    "infoCopyright": false
                 }
             ]
         },
