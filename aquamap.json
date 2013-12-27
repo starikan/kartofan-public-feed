@@ -1,0 +1,18 @@
+{
+
+    "maps": {
+        "aquamap": {
+            "id": "aquamap",
+            "title": "Акварелька",
+            "server": "img",
+            "layers": "",
+            "group": "Красота",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        }
+    }
+}
