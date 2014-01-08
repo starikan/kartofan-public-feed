@@ -1,0 +1,375 @@
+{
+    "maps": {
+        "bingBirdEye": {
+            "id": "bingBirdEye",
+            "title": "Бинг",
+            "server": "img",
+            "group": "0. Спутниковык снимки",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://ecn.t3.tiles.virtualearth.net/tiles/svi{bingBird}.jpeg?g=1126",
+            "maxZoom": "18",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
+        "cloudmate": {
+            "id": "cloudmate",
+            "group": "0. Векторные карты",
+            "src": "Internet",
+            "server": "img",
+            "title": "Cloudmate",
+            "tilesURL": "http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png",
+            "maxZoom": 15,
+            "minZoom": 1,
+            "startZoom": 5
+        },
+        "genshtab": {
+            "id": "genshtab",
+            "title": "Генштаб",
+            "server": "wms",
+            "layers": "topomapper_gmerc",
+            "group": "1. Современные 1950-1990",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://78.46.61.141/cgi-bin/tilecache-2.11b/tilecache.py",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "ggc025k": {
+            "id": "ggc025k",
+            "title": "ГосГисЦентр 025k",
+            "server": "img",
+            "group": "1. Современные 1990-2013",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://maps.marshruty.ru/ml.ashx?al=1&i=1&x={x}&y={y}&z={z}",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "googleMap": {
+            "id": "googleMap",
+            "title": "Google",
+            "server": "img",
+            "group": "0. Векторные карты",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://mt{case0123}.google.com/vt/lyrs=m@169000000&hl=ru&x={x}&y={y}&zoom={z17}&s={Galileo}",
+            "maxZoom": "18",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
+        "googleSAT": {
+            "id": "googleSAT",
+            "group": "0. Спутниковык снимки",
+            "src": "Internet",
+            "server": "img",
+            "title": "Google",
+            "tilesURL": "http://khms{case0123}.google.com/kh/v=141&hl=ru&src=app&x={x}&y={y}&z={z}&s={Galileo}",
+            "maxZoom": 20,
+            "minZoom": 0,
+            "startZoom": 13
+        },
+        "mendeDrop": {
+            "id": "mendeDrop",
+            "group": "4. Исторические 1800-1920",
+            "src": "Storage",
+            "server": "img",
+            "title": "Мендэ Симбирская губерния 1в.",
+            "tilesURL": "https://dl.dropboxusercontent.com/u/2231696/mende/{z}/{y}/{x}.jpg",
+            "maxZoom": 14,
+            "minZoom": 1,
+            "startZoom": 12,
+            "crs": "EPSG3857.Ext"
+        },
+        "osm": {
+            "id": "osm",
+            "title": "OpenStreetMaps",
+            "server": "img",
+            "group": "0. Векторные карты",
+            "src": "Internet",
+            "crs": "",
+            "tilesURL": "http://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            "maxZoom": 18,
+            "minZoom": 1,
+            "startZoom": 12
+        },
+        "yandexMap": {
+            "id": "yandexMap",
+            "title": "Яндекс",
+            "server": "img",
+            "group": "0. Векторные карты",
+            "src": "Internet",
+            "crs": "EPSG3395",
+            "tilesURL": "http://vec0{case1234}.maps.yandex.net/tiles?l=map&x={x}&y={y}&z={z}&g={Gagarin}",
+            "maxZoom": "20",
+            "minZoom": "1",
+            "startZoom": "12"
+        },
+        "yandexSAT": {
+            "id": "yandexSAT",
+            "group": "0. Спутниковык снимки",
+            "src": "Internet",
+            "server": "img",
+            "title": "Яндекс",
+            "tilesURL": "http://sat0{case1234}.maps.yandex.net/tiles?l=sat&x={x}&y={y}&z={z}&g={Gagarin}",
+            "maxZoom": 20,
+            "minZoom": 0,
+            "startZoom": 13,
+            "crs": "EPSG3395"
+        }
+    },
+    "stages": {
+        "1 + mini": {
+            "title": "1 + mini",
+            "id": "1 + mini",
+            "group": "Unknown",
+            "stageMapsGrid": [
+                [
+                    0,
+                    0,
+                    100,
+                    100
+                ],
+                [
+                    0,
+                    72,
+                    20,
+                    28
+                ]
+            ],
+            "stageMapsNames": [
+                "unknown",
+                "unknown"
+            ],
+            "stageMapsZooms": [
+                12,
+                12
+            ],
+            "stageMapsZoomsBlock": [
+                false,
+                false
+            ],
+            "stageMapsControlls": [
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": false,
+                    "zoomLevel": false,
+                    "zoom": false,
+                    "scale": false,
+                    "infoCopyright": false
+                }
+            ]
+        },
+        "1g + 2g": {
+            "title": "1g + 2g",
+            "id": "1g + 2g",
+            "group": "",
+            "stageMapsGrid": [
+                [
+                    0,
+                    0,
+                    100,
+                    50
+                ],
+                [
+                    0,
+                    50,
+                    50,
+                    50
+                ],
+                [
+                    50,
+                    50,
+                    50,
+                    50
+                ]
+            ],
+            "stageMapsNames": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "stageMapsZooms": [
+                12,
+                12,
+                12
+            ],
+            "stageMapsZoomsBlock": [false, false, false],
+            "stageMapsControlls": [
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
+            ]
+        },
+        "1v + 2v": {
+            "title": "1v + 2v",
+            "id": "1v + 2v",
+            "group": "",
+            "stageMapsGrid": [
+                [
+                    0,
+                    0,
+                    50,
+                    100
+                ],
+                [
+                    50,
+                    0,
+                    50,
+                    50
+                ],
+                [
+                    50,
+                    50,
+                    50,
+                    50
+                ]                
+            ],
+            "stageMapsNames": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "stageMapsZooms": [
+                12,
+                12,
+                12
+            ],
+            "stageMapsZoomsBlock": [false, false, false],
+            "stageMapsControlls": [
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
+            ]
+        },
+        "4 x 4": {
+            "title": "4 x 4",
+            "id": "4 x 4",
+            "group": "",
+            "stageMapsGrid": [
+                [
+                    0,
+                    0,
+                    50,
+                    50
+                ],
+                [
+                    50,
+                    0,
+                    50,
+                    50
+                ],
+                [
+                    0,
+                    50,
+                    50,
+                    50
+                ],
+                [
+                    50,
+                    50,
+                    50,
+                    50
+                ]
+            ],
+            "stageMapsNames": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "stageMapsZooms": [
+                12,
+                12,
+                12,
+                12
+            ],
+            "stageMapsZoomsBlock": [false, false, false, false],
+            "stageMapsControlls": [
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                },
+                {
+                    "mapTitle": {
+                        "pos": "bottomright"
+                    },
+                    "zoomLevel": {
+                        "pos": "bottomright"
+                    }
+                }
+            ]
+        }
+    }
+}
